@@ -3,7 +3,7 @@ import Book from "../../public/Banner.jpg";
 function Banner() {
   return (
     <>
-      <div className=" max-w-screen-2xl container mx-auto flex flex-col md:flex-row my-20">
+      <div className=" max-w-screen-2xl container mx-auto flex flex-col md:px-5 px-4 md:flex-row my-15">
         <div className="w-full order-2 md:order-1  md:w-1/2 mt-12 md:mt-32">
           <div className="space-y-10">
             <h1 className="text-4xl font-bold">
