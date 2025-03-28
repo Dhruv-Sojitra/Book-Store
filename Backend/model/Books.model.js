@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const bookScheme = new mongoose.Schema({
+const bookSchema = new mongoose.Schema({
   name: String,
   price: Number,
   category: String,
@@ -7,6 +7,6 @@ const bookScheme = new mongoose.Schema({
   title: String,
 });
 
-const Book = mongoose.model("Book", bookScheme);
+const Book = mongoose.model("Book", bookSchema);
 
 export default Book;
